@@ -1,0 +1,46 @@
+
+# test 1
+
+if page starts
+addtocart="product1162"
+    select "noo-site"
+            "viewcart"
+send_keys
+
+select "CREATE AN ACCOUNT"
+    send_keys
+
+select "terms"
+    "place order"
+    
+else 
+ print "failed test"
+    
+
+# test 2
+
+if page starts
+addtocart="product1162"
+    select "noo-site"
+            
+select "size"
+        color
+
+locate image element 
+    
+else 
+ print "failed test"
+
+
+ 
+ 
+# test 3
+
+if page starts
+    zoom 175%
+            
+select element_by_CLASS ("Navbar")
+    click()
+    
+else 
+ print "failed test"
